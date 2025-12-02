@@ -4,9 +4,14 @@ float toCelsius(float f);
 
 int main() {
     float f, c;
+
+    printf("Enter temperature in Fahrenheit: ");
     scanf("%f", &f);
+
     c = toCelsius(f);
-    printf("%.2f\n", c);
+
+    printf("Temperature in Celsius: %.2f\n", c);
+
     return 0;
 }
 
